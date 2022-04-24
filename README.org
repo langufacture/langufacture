@@ -1,0 +1,4 @@
+#+title: Langufacture README
+* About Langufacture
+Langufacture is project whose goal is the study, popularization, and development of
+philosophical languages.
