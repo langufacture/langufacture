@@ -1,4 +1,10 @@
-#+title: Langufacture README
+#+title: About Langufacture
 * About Langufacture
-Langufacture is project whose goal is the study, popularization, and development of
-philosophical languages.
+Langufacture seeks to study, popularize, and develop engineered languages, and
+to explore the application of concepts and methods from anthropology,
+mathematics, logic, phenomenology, and philosophy in the art of language
+construction. The material on this site is arranged into three sections:
+
+- Design sketches for original constructed languages
+- Critiques and analyses of existing ones
+- Notes on interdisciplinary research
