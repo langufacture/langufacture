@@ -1,9 +1,14 @@
 #+title: About Langufacture
+#+author: langufacture
+#+email: admin@langufacture.com
+#+export_file_name: index.html
+
 * About Langufacture
-Langufacture seeks to study, popularize, and develop engineered languages, and
-to explore the application of concepts and methods from anthropology,
-mathematics, logic, phenomenology, and philosophy in the art of language
-construction. The material on this site is arranged into three sections:
+Langufacture is a project to study, popularize, and develop engineered
+languages, and to explore the application of concepts and methods from other
+disciplines, including anthropology, mathematics, logic, phenomenology, and
+philosophy in the art of language construction. The material on this site is
+arranged into three sections:
 
 - Design sketches for original constructed languages
 - Critiques and analyses of existing ones
