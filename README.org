@@ -2,6 +2,9 @@
 #+author: langufacture
 #+email: admin@langufacture.com
 #+export_file_name: index.html
+#+description: Homepage and research blog for a constructed philosophical language
+#+keywords: language philosophy art logic conlang type theory
+#+html_container: section
 #+options: toc:nil num:nil
 
 * About Langufacture
