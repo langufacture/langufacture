@@ -4,11 +4,12 @@
 #+export_file_name: index.html
 
 * About Langufacture
-Langufacture is a project to study, popularize, and develop engineered
+Langufacture is a project to study, popularize, and build philosophical
 languages, and to explore the application of concepts and methods from other
-disciplines, including anthropology, mathematics, logic, phenomenology, and
-philosophy in the art of language construction. The material on this site is
-arranged into three sections:
+disciplines, including anthropology, mathematics, logic, and phenomenology, to
+the craft of language construction.
+
+The material on this site is arranged into three sections:
 
 - Design sketches for original constructed languages
 - Critiques and analyses of existing ones
