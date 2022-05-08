@@ -32,7 +32,14 @@ h4,
 h5 {
     margin: 0 0 0.5rem 0;
 }
-
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+    color: inherit;
+    text-decoration: none;
+}
 h1 {
     font-size: 2.5rem;
 }
@@ -52,6 +59,10 @@ h5 {
 section {
     padding: 1rem;
 }
+
+ul, ol {
+    margin:
+}
 .title {
     padding: 1rem;
 }
@@ -70,4 +81,12 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (min-width: 480px) {
+    section, .title {
+	padding: 2rem;
+    }
+    #postamble {
+	padding: 0.5rem 2rem;
+    }
 }
