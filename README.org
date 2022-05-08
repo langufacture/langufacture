@@ -4,9 +4,7 @@
 #+export_file_name: index.html
 #+description: Homepage and research blog for a constructed philosophical language
 #+keywords: language philosophy art logic conlang type theory
-#+html_container: section
-#+options: toc:nil num:nil
-
+#+setupfile: setupfile.org
 * About Langufacture
 Langufacture is a project to study, popularize, and build philosophical
 languages, and to explore the application of concepts and methods from other

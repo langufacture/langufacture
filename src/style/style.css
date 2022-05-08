@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    --background: #121212;
+    --text: #fafafa;
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font: 1rem/1.5 "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 0.5rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+section {
+    padding: 1rem;
+}
+.title {
+    padding: 1rem;
+}
+.content {
+    max-width: 60em;
+    margin: auto;
+    flex: 1 0 auto;
+}
+#postamble {
+    max-width: 60rem;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    line-height: 1.15;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
