@@ -60,8 +60,20 @@ section {
     padding: 1rem;
 }
 
+p {
+    margin: 0 0 0.5rem;
+    font-weight: 400;
+}
+
 ul, ol {
-    margin:
+    margin: 0.5rem 0 1rem;
+    padding-inline-start: 2rem;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin: 0;
 }
 .title {
     padding: 1rem;
