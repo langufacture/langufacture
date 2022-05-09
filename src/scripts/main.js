@@ -8,5 +8,5 @@ logoSetup = () => {
     const title = document.querySelector(".title");
     title.insertBefore(img, title.firstChild);
 }
-window.addEventListener("load", logoSetup);
+window.addEventListener("load", ()=>console.log("do nothing"));
 console.log("loaded");

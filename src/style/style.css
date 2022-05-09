@@ -13,9 +13,14 @@ body {
     height: 100%;
 }
 
+
 body {
     --background: #121212;
     --text: #fafafa;
+    --code: #00ee88;
+    --logo1: #ed6a5a;
+    --logo2: #fffd82;
+    --logo3: #5c9ead;
     margin: 0;
     background: var(--background);
     color: var(--text);
@@ -60,6 +65,9 @@ section {
     padding: 1rem;
 }
 
+code {
+    color: var(--code);
+}
 p {
     margin: 0 0 0.5rem;
     font-weight: 400;
@@ -75,20 +83,45 @@ ol ol,
 ol ul {
     margin: 0;
 }
-.title {
+header {
     padding: 1rem;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.page-title {
+    flex-grow: 1;
 }
 .content {
-    max-width: 60em;
+    max-width: 60rem;
     margin: auto;
     flex: 1 0 auto;
 }
-#logo {
-    height: 3.5rem;
-    width: 3.5rem;
+#langufactureLogo {
+    fill: var(--text);
+    height: 5rem;
+    width: 5rem;
     margin: auto 1.5rem auto auto;
     vertical-align: text-top;
     display: inline-block;
+
+}
+.petal1, .petal2, .petal3 {
+    transition: fill 1s ease-in-out;
+}
+
+header:hover .petal1 {
+    fill: var(--logo1);
+}
+header:hover .petal2 {
+    fill: var(--logo2);
+}
+header:hover .petal3 {
+    fill: var(--logo3);
+}
+
+.logo {
 }
 #postamble {
     max-width: 60rem;
@@ -102,7 +135,7 @@ ol ul {
     justify-content: space-between;
 }
 @media screen and (min-width: 480px) {
-    section, .title {
+    section, header {
 	padding: 2rem;
     }
     #postamble {

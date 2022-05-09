@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!-- 2022-05-09 Mon 07:08 -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Langufacture</title>
-<meta name="author" content="langufacture" />
-<meta name="description" content="Homepage and research blog for a constructed philosophical language" />
-<meta name="keywords" content="language philosophy art logic conlang type theory" />
-<meta name="generator" content="Org Mode" />
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
-<link rel="stylesheet" href="/src/style/style.css">
-<link rel="icon" type="image/png" href="/src/assets/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-</head>
-<body>
-<div id="preamble" class="status">
-<header class='header'><svg
+((org-mode . ((org-html-preamble-format . (("en" "<header class='header'><svg
    width='256'
    height='256'
    viewBox='0 0 256 256'
@@ -75,36 +55,5 @@
      d='M 4.570496e-6,30.226793 9.9035336,27.573142 C 22.740113,24.133595 48.31068,14.568969 75.570062,8.8049651 102.82945,3.0409814 132.74516,0.30464236 156.38252,13.951679 c 11.4188,6.59265 20.88397,15.286024 28.21609,25.309536 -16.24948,-10.832828 -35.72055,-17.161356 -56.60102,-17.161356 -8.97997,0 -17.66885,1.233863 -25.98414,3.429119 -7.251434,0.652769 -14.709643,1.769244 -22.193047,3.35161 -21.484398,4.542876 -39.874612,11.155152 -54.914166,15.725817 2.62052,11.265086 5.213519,24.66695 9.100793,39.272058 -0.139597,0.319309 -0.314951,0.620982 -0.451319,0.941932 C 28.49213,96.737388 25.639249,109.80219 25.484128,123.47449 23.182561,117.83307 21.096139,112.09621 19.233222,106.38334 10.595304,79.894018 6.0932306,52.966946 2.6536841,40.130364 Z'
      id='path6' class='petal3'/>
 </svg>
-  <h1 class='page-title'>Langufacture</h1>
-</header>
-</div>
-<div id="content" class="content">
-<section id="outline-container-org25cd0e8" class="outline-2">
-<h2 id="org25cd0e8"><a href="#org25cd0e8">About Langufacture</a></h2>
-<div class="outline-text-2" id="text-org25cd0e8">
-<p>
-Langufacture is a project to study, popularize, and build philosophical
-languages, and to explore the application of concepts and methods from other
-disciplines, including anthropology, mathematics, logic, and phenomenology, to
-the craft of language construction.
-</p>
-
-<p>
-The material on this site is arranged into three sections:
-</p>
-
-<ul class="org-ul">
-<li>Design sketches for original constructed languages</li>
-<li>Critiques and analyses of existing ones</li>
-<li>Notes on interdisciplinary research</li>
-</ul>
-</div>
-</section>
-</div>
-<div id="postamble" class="status">
-<p class="author">Author: langufacture</p>
-<p class="date">Created: 2022-05-09 Mon 07:08</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
-</body>
-</html>
+  <h1 class='page-title'>%t</h1>
+</header>"))))))
