@@ -2,6 +2,8 @@
 #+options: toc:nil num:nil html-style:nil
 #+html_head: <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
 #+html_head: <link rel="stylesheet" href="src/style/style.css">
+#+html_head: <link rel="icon" type="image/png" href="/src/assets/favicon.png">
 #+html_head: <link rel="preconnect" href="https://fonts.googleapis.com">
 #+html_head: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 #+html_head: <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+#+html_head: <script src="/src/scripts/main.js"></script>

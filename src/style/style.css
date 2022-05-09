@@ -83,6 +83,13 @@ ol ul {
     margin: auto;
     flex: 1 0 auto;
 }
+#logo {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: auto 1.5rem auto auto;
+    vertical-align: text-top;
+    display: inline-block;
+}
 #postamble {
     max-width: 60rem;
     width: 100%;
